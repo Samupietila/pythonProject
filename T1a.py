@@ -1,1 +1,1 @@
-print("Tervetuloa opiskelemaan Python-kieltä!")
+print("Hei Samu Pietilä!")
