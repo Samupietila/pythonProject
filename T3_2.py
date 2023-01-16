@@ -1,5 +1,6 @@
 print('Tämä ohjelma kysyy käyttäjältä hyttiluokan ja antaa siitä kuvauksen.')
 Hyttiluokka = input('Anna hyttiluokka: ')
+Hyttiluokka = Hyttiluokka.upper()
 if Hyttiluokka == 'LUX':
     print('LUX on parvekkeellinen hytti yläkannella.')
 elif Hyttiluokka == 'A':
