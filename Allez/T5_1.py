@@ -5,4 +5,4 @@ Luvut = []
 for i in range(Arpakuutiot):
     Luvut.append(random.randint(1,6))
 Luvut = sum(Luvut)
-print('Arpakuutiodien summa on:', Luvut)
+print('Arpakuutioiden summa on:', Luvut)

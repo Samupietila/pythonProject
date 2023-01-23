@@ -10,5 +10,7 @@ while Yritykset < 5:
         print('Tervetuloa!')
         break
     else:
-        print('Pääsy evätty.')
+        print('Yritä uudelleen.')
     Yritykset = Yritykset + 1
+else:
+    print('Pääsy evätty.')
