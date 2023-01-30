@@ -1,7 +1,7 @@
 import math
 def muuntaja(kehote1, kehote2):
     pa = (kehote1/2)**2*math.pi
-    pa = pa / 1000
+    pa = pa / 10000
     yhinta = kehote2 / pa
     return yhinta
 def paaohjelma():
