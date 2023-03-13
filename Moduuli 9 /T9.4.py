@@ -31,7 +31,7 @@ class Auto:
 
 def paaohjelma():
     Autot = []
-    for i in range(11):
+    for i in range(1,11):
         i = Auto('ABC-'+str(i), random.randint(100,200), 0, 0)
         Autot.append(i)
     while i.kuljettuMatka <= 10000:
